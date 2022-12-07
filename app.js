@@ -6,6 +6,7 @@ const userTransactions = require("./handlers/userTransactions");
 const allTransactions = require("./handlers/allTransactions");
 const buyBitcoin = require("./handlers/buyBitcoin");
 const sellBitcoin = require("./handlers/sellBitcoin");
+const setStatus = require("./handlers/setStatus");
 const sendMail = require("./handlers/sendMail");
 
 api.get("/transactions/user-transactions", (request) => {
@@ -22,6 +23,10 @@ api.post("/transactions/buy-bitcoin", (request) => {
 
 api.post("/transactions/sell-bitcoin", (request) => {
   return sellBitcoin(request);
+});
+
+api.post("/transactions/set-status", (request) => {
+  return setStatus(request);
 });
 
 api.post("/transactions/send-mail", (request) => {
