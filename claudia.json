@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "transactions-api-executor",
+    "name": "transactions-api",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "q0hlyyayuh",
+    "module": "app"
+  }
+}

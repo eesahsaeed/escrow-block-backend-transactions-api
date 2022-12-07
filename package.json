@@ -1,0 +1,24 @@
+{
+  "name": "transactions-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --region us-east-1 --api-module app",
+    "update": "claudia update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "age-calculator": "^1.0.0",
+    "aws-sdk": "^2.1261.0",
+    "bcryptjs": "^2.4.3",
+    "calculate-age": "^0.1.0",
+    "claudia": "^5.14.1",
+    "claudia-api-builder": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.8.0",
+    "uuid": "^9.0.0"
+  }
+}

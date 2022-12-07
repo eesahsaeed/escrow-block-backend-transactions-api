@@ -1,0 +1,13 @@
+{
+  "lambda": {
+    "role": "transactions-api-executor",
+    "name": "transactions-api",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "q0hlyyayuh",
+    "module": "app",
+    "url": "https://q0hlyyayuh.execute-api.us-east-1.amazonaws.com/latest",
+    "transactions-table": "arn:aws:dynamodb:us-east-1:567106720048:table/transactions-table"
+  }
+}
