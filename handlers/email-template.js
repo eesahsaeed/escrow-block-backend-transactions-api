@@ -507,7 +507,7 @@ function transactionTemplate(name, amount){
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
   </head>
-  <body style="background-color: #f9f9f9; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+  <body style="background-color: #f9f9f9; margin: 5px; padding: 10px; -webkit-text-size-adjust: none; text-size-adjust: none;">
     <p>
       An order request has been submitted.
     </p>
